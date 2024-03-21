@@ -41,24 +41,24 @@ s.n. dasgupta
 ```
 ### Display the content of the files
 cat < file1
-## OUTPUT
-
-
-
 cat < file2
 ## OUTPUT
+![Screenshot (153)](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/79a6996a-fe57-4ab3-a2e3-73991550ee87)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![Screenshot (154)](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/7a029b5b-1914-4679-a41e-357ba0e164bf)
+
 comm file1 file2
  ## OUTPUT
+![Screenshot (155)](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/19270f97-e9f3-491a-9319-f3463a16966a)
 
  
 diff file1 file2
 ## OUTPUT
+![Screenshot (156)](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/26a053ac-6871-49de-ad1b-45dcf44b9f85)
 
 
 #Filters
@@ -82,17 +82,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/631da9b9-b749-4a7f-8b9b-f893b7a46599)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/1d0339ad-db78-49fd-94dd-a4215c9f7a65)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/9301db1d-080f-499e-8254-7f8a94cc1c2f)
 
 
 cat < newfile 
@@ -107,23 +110,28 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/a4556896-18e1-4b79-b0bf-4f92386a8b6c)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/795092ff-57ca-426e-9163-05fe9f5df416)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/8d962ea5-1f9d-4686-8562-c588c61090f1)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/dd562c47-c033-4357-b28e-301159f061c7)
 
 
 
