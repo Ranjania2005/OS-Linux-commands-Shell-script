@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/f7e06ae0-d31c-4c77-875f-af51c6b99513)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -137,6 +137,7 @@ cat newfile | grep -i "hello"
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/c38c90a0-7eba-419d-8c77-b19111d2f609)
 
 
 
@@ -144,10 +145,14 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/a8822ae7-1abc-4f5a-a557-22fc10cda6f6)
+
 
 
 grep -w -n world newfile   
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/982c7617-fe68-4f22-81df-3f277c6a1f3d)
 
 
 cat < newfile 
@@ -172,10 +177,14 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/8ff21abf-c23e-4fed-a6aa-b6e7d79c3512)
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/62dadc41-98ce-492f-a9c3-e7a320c611b7)
 
 
 
@@ -183,39 +192,52 @@ egrep -w '(H|h)ell[a-z]' newfile
 ## OUTPUT
 
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/8a0926a3-f998-4ab9-97d9-97b6aef7941c)
+
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/67836b35-f8fe-4c6f-b6fb-b898b4f7914b)
+
 
 egrep '(world$)' newfile 
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/0cd62f9a-1c0a-4a97-ba24-7974e2ac2b89)
+
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+No output
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/3727ddd2-1426-4601-97f5-a63c479ff215)
+
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/d743b5de-5f56-45d6-9ed8-4230e6b8a71e)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/f77f0d94-5e59-40b3-b242-976d11d44c06)
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+No output
 
 egrep l{2} newfile
 ## OUTPUT
@@ -224,6 +246,8 @@ egrep l{2} newfile
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/5030e4f9-92f8-47a4-a2b1-5a2621183cb1)
 
 
 cat > file23
@@ -243,15 +267,21 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/9052bdea-d2fa-4e7d-9bb0-54139712f364)
+
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/f1690dae-f2f9-4c84-a3bf-884fc4d5d94b)
+
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/4b16bbd2-37d8-42e3-9eed-c10f11175357)
 
 
 
@@ -263,15 +293,21 @@ sed  -e '2s/Ram/Sita/' file23
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/2ba220de-ade4-4f4d-90ca-a00e29e48804)
+
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/d707397b-13d7-4985-8d2a-e5cd05a061ea)
+
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/fe8e413d-5e1f-41fc-a42a-dd3a4780fdb0)
 
 
 
@@ -279,42 +315,60 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/31d30966-7d1b-4c50-a6b1-08b37a0149a6)
+
 
 
 seq 10 
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/c12972a4-8f0e-49ed-8ab3-853529b64e15)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/707704bc-e094-4c92-863a-9e2500f3f736)
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/5ccaa641-44d9-40d3-a61d-0e63baa44478)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/fbb94a68-c786-4492-b59f-6e2205523f76)
+
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/5f738216-7246-42ef-a5e4-8aec358c52b1)
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/48e434d1-45d5-4ac6-b9a3-80b666e1c53d)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/84be6e77-0460-40ad-aa7f-f6cd177cd4f1)
+
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/f92e6cf7-f668-4278-b756-cccef69a2043)
 
 
 #Sorting File content
@@ -329,6 +383,8 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/93b6fae1-26f8-4b2b-baf5-fcea1c54485b)
+
 
 cat > file22
 ```
@@ -342,12 +398,16 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/fe3b156d-0ab9-4b9f-8eee-98c2763fed14)
+
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+![image](https://github.com/Ranjania2005/OS-Linux-commands-Shell-script/assets/151624950/e4426eff-6ac8-4ef9-a78e-540b94ce6aa0)
 
 cat < urllist.txt
 ```
